@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    font-family:cursive;
+    padding: 1.5%;
+    font-size: large;
+    margin-left: auto;
+    opacity: 0.7;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/flowers-4931217_1920.png);
+    font-family: American Typewriter, serif;
+    margin:0 ;
+   
+}
+
+#container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, input[type="text"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
